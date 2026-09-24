@@ -3,8 +3,8 @@ pipeline {
     agent any 
 
     environment {
-        $IMAGE_NAME = "home-i"
-        $CONTAINER_NAME = "home-c"
+        $IMAGE_NAME = "homei"
+        $CONTAINER_NAME = "homec"
     }
 
     stages {
